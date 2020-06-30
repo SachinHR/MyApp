@@ -2,21 +2,30 @@
 
 ## Install
 ```
-1: sudo apt install python3-pip
-2: pip3 install virtualenv
-3: pip3 install django
+sudo apt install python3-pip
+pip3 install virtualenv
+pip install --upgrade pip
 ```
 ## Clone this repository
 
 git clone https://github.com/SachinHR/MyApp.git
 
-## To create account
+## Create Environment
 ```
-python manage.py creatsuperuser
+python3 -m virtualenv Env
+source Env/bin/activate
 ```
-## Start server
+# Install Django
+```
+pip3 install django
+```
+## Open terminal and Start server
 ```
 python manage.py runserver
+```
+## Open another new terminal and create account
+```
+python manage.py createsuperuser
 ```
 ## Home Page
 [BLOG](http://127.0.0.1:8000/admin/login/?next=/admin/)

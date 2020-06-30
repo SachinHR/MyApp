@@ -14,6 +14,10 @@ git clone https://github.com/SachinHR/MyApp.git
 ```
 python manage.py creatsuperuser
 ```
+## Start server
+```
+python manage.py runserver
+```
 ## Home Page
 [BLOG](http://127.0.0.1:8000/admin/login/?next=/admin/)
 
